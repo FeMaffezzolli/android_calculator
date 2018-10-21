@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid gray 1px; */
+    /* margin-top: 200px;
+    width: 20%;
+    height: 40%;
+}*/
+
+td {
+    border: solid gray 1px;
+}
+
+td button {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: none;
+    color: black;
+    background-color: #f2f2f2;
+}
+
+td input {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: none;
+    color: black;
+    background-color: white;
+}
+
+.head {
+    display: inline;
+}
+
+.keyboard, .operators, .tab {
+    display: inline-block;
+}
